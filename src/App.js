@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.scss';
-import Game from './components/tictactoe/Game';
+import Button from './components/button/Button';
 
 function App() {
   return (
     <div>
-      <Game />
+      <Button>Primary</Button>
+      <Button secondary>Primary</Button>
     </div>
   );
 }
